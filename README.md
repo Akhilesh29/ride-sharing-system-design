@@ -161,25 +161,4 @@ Driver (Amrit Singh) rating: 5.0
 - [x] Location-based driver search
 - [x] Trip history tracking
 
-## Building the Project
 
-1. **Prerequisites**
-   - C++ compiler (g++ recommended)
-   - C++17 or later
-
-2. **Compilation**
-   ```bash
-   ./compile.bat  # On Windows
-   ```
-
-## Class Structure
-
-```
-src/
-├── models/
-│   ├── Location.hpp/cpp    # Location management
-│   ├── User.hpp/cpp       # User management
-│   └── Trip.hpp/cpp      # Trip management
-├── RideManager.hpp/cpp    # Core orchestrator
-└── main.cpp              # Demo implementation
-```
