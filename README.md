@@ -1,6 +1,6 @@
 # Ride Sharing System Design
 
-A C++ implementation of a ride-sharing system similar to Uber. This system demonstrates core functionalities of a ride-sharing platform including real-time location tracking, driver-rider matching, payment processing, and rating system.
+A C++ implementation of a ride-sharing system. This system demonstrates core functionalities of a ride-sharing platform including real-time location tracking, driver-rider matching, payment processing, and rating system.
 
 ## System Flow Diagram
 
