@@ -7,7 +7,7 @@ RideManager::RideManager() {}
 RideManager::~RideManager() {
     // Cleanup memory
     for (auto driver : drivers) delete driver;
-    for (auto rider : riders) delete rider;
+    for (auto rider : riders) delete  rider;
     for (auto& pair : activeTrips) delete pair.second;
     for (auto& pair : tripHistory) delete pair.second;
 }
