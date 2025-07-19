@@ -6,7 +6,6 @@ void printTripDetails(Trip* trip) {
         std::cout << "Invalid trip\n";
         return;
     }
-    
     std::cout << "\n------------------------\n";
     std::cout << "Trip ID: " << trip->getTripId() << "\n";
     std::cout << "Rider: " << trip->getRider()->getName() << "\n";
